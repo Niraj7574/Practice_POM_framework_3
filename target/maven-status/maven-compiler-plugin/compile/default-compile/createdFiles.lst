@@ -1,0 +1,10 @@
+com\bank\qa\base\TestBase.class
+com\bank\qa\utils\TestUtil.class
+com\bank\qa\pages\DealsPage.class
+com\bank\qa\pages\SignupPage.class
+com\bank\qa\ExtentReportListener\ExtenetReporterNG.class
+com\bank\qa\pages\ContactsPage.class
+com\bank\qa\pages\HomePage.class
+com\bank\qa\pages\LoginPage.class
+com\bank\qa\pages\TasksPage.class
+com\bank\qa\utils\WebEventListener.class
