@@ -1,37 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-12T18:41:00Z" name="Surefire suite" finished-at="2023-02-12T18:43:08Z" duration-ms="127190">
+  <suite started-at="2023-02-14T04:32:30Z" name="Surefire suite" finished-at="2023-02-14T04:34:50Z" duration-ms="140345">
     <groups>
     </groups>
-    <test started-at="2023-02-12T18:41:00Z" name="Surefire test" finished-at="2023-02-12T18:43:08Z" duration-ms="127190">
+    <test started-at="2023-02-14T04:32:30Z" name="Surefire test" finished-at="2023-02-14T04:34:50Z" duration-ms="140345">
       <class name="com.bank.qa.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.HomePageTest@646007f4]" started-at="2023-02-12T13:42:44Z" name="setUp" finished-at="2023-02-12T13:42:56Z" duration-ms="11576" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:32:41Z" name="setUp" finished-at="2023-02-13T23:32:49Z" duration-ms="7573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnNewContactPlusBtnTest()[pri:4, instance:com.bank.qa.tests.HomePageTest@646007f4]" started-at="2023-02-12T13:42:56Z" name="clickOnNewContactPlusBtnTest" finished-at="2023-02-12T13:43:06Z" duration-ms="10411" status="FAIL">
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:32:49Z" name="verifyHomePageTitleTest" finished-at="2023-02-13T23:32:49Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:32:49Z" name="tearDown" finished-at="2023-02-13T23:32:50Z" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:33:08Z" name="setUp" finished-at="2023-02-13T23:33:17Z" duration-ms="8604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserNameTest()[pri:2, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:33:17Z" name="verifyUserNameTest" finished-at="2023-02-13T23:33:18Z" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:33:18Z" name="tearDown" finished-at="2023-02-13T23:33:19Z" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:34:29Z" name="setUp" finished-at="2023-02-13T23:34:37Z" duration-ms="7672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsLinkTest()[pri:3, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:34:37Z" name="verifyContactsLinkTest" finished-at="2023-02-13T23:34:38Z" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:34:38Z" name="tearDown" finished-at="2023-02-13T23:34:39Z" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:34:39Z" name="setUp" finished-at="2023-02-13T23:34:47Z" duration-ms="7797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnNewContactPlusBtnTest()[pri:4, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:34:47Z" name="clickOnNewContactPlusBtnTest" finished-at="2023-02-13T23:34:49Z" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNewContactPlusBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.qa.tests.HomePageTest@fcd6521]" started-at="2023-02-13T23:34:49Z" name="tearDown" finished-at="2023-02-13T23:34:50Z" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.qa.tests.HomePageTest -->
+      <class name="com.bank.qa.tests.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:32:30Z" name="setUp" finished-at="2023-02-13T23:32:40Z" duration-ms="9653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactPageLabelTest()[pri:1, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:32:40Z" name="verifyContactPageLabelTest" finished-at="2023-02-13T23:32:40Z" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPageLabelTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:32:40Z" name="afterMethod" finished-at="2023-02-13T23:32:41Z" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:32:58Z" name="setUp" finished-at="2023-02-13T23:33:07Z" duration-ms="8601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateNewContactLabelTest()[pri:2, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:33:07Z" name="verifyCreateNewContactLabelTest" finished-at="2023-02-13T23:33:07Z" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContactLabelTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:33:07Z" name="afterMethod" finished-at="2023-02-13T23:33:08Z" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:33:29Z" name="setUp" finished-at="2023-02-13T23:33:37Z" duration-ms="8638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:33:37Z" name="createNewContactTest" data-provider="getCrmTestData" finished-at="2023-02-13T23:33:52Z" duration-ms="15014" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vasudev]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: Create
+              <![CDATA[Unable to locate element: //input[@name='first_name']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-OL7R0RQ3', ip: '10.0.0.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16608, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
-*** Element info: {Using=link text, value=Create}]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19992, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a817d0c-9283-4526-a0d7-461b654e9bd6
+*** Element info: {Using=xpath, value=//input[@name='first_name']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Create
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='first_name']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-OL7R0RQ3', ip: '10.0.0.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16608, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
-*** Element info: {Using=link text, value=Create}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19992, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a817d0c-9283-4526-a0d7-461b654e9bd6
+*** Element info: {Using=xpath, value=//input[@name='first_name']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -44,10 +130,10 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
@@ -55,9 +141,9 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.bank.qa.pages.ContactsPage.clickOnCreateNewContactBtn(ContactsPage.java:45)
-	at com.bank.qa.tests.HomePageTest.clickOnNewContactPlusBtnTest(HomePageTest.java:53)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.bank.qa.pages.ContactsPage.createNewContact(ContactsPage.java:53)
+	at com.bank.qa.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,42 +179,16 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnNewContactPlusBtnTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.qa.tests.HomePageTest@646007f4]" started-at="2023-02-12T13:43:06Z" name="tearDown" finished-at="2023-02-12T13:43:08Z" duration-ms="1510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.bank.qa.tests.HomePageTest -->
-      <class name="com.bank.qa.tests.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:41:28Z" name="setUp" finished-at="2023-02-12T13:41:40Z" duration-ms="11781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:41:40Z" name="createNewContactTest" data-provider="getCrmTestData" finished-at="2023-02-12T13:41:50Z" duration-ms="10031" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Krishna]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Vasudev]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:41:50Z" name="afterMethod" finished-at="2023-02-12T13:41:52Z" duration-ms="1722" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:33:52Z" name="afterMethod" finished-at="2023-02-13T23:33:54Z" duration-ms="1195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:41:52Z" name="setUp" finished-at="2023-02-12T13:42:03Z" duration-ms="11530" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:33:54Z" name="setUp" finished-at="2023-02-13T23:34:03Z" duration-ms="8830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:42:03Z" name="createNewContactTest" data-provider="getCrmTestData" finished-at="2023-02-12T13:42:14Z" duration-ms="10711" status="PASS">
+        <test-method signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:34:03Z" name="createNewContactTest" data-provider="getCrmTestData" finished-at="2023-02-13T23:34:10Z" duration-ms="7403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,15 +204,15 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:42:14Z" name="afterMethod" finished-at="2023-02-12T13:42:17Z" duration-ms="2559" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:34:10Z" name="afterMethod" finished-at="2023-02-13T23:34:12Z" duration-ms="1630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:42:17Z" name="setUp" finished-at="2023-02-12T13:42:29Z" duration-ms="12765" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:34:12Z" name="setUp" finished-at="2023-02-13T23:34:21Z" duration-ms="9437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:42:29Z" name="createNewContactTest" data-provider="getCrmTestData" finished-at="2023-02-12T13:42:42Z" duration-ms="12369" status="PASS">
+        <test-method signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:34:21Z" name="createNewContactTest" data-provider="getCrmTestData" finished-at="2023-02-13T23:34:28Z" duration-ms="7118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,33 +228,33 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@710726a3]" started-at="2023-02-12T13:42:42Z" name="afterMethod" finished-at="2023-02-12T13:42:44Z" duration-ms="2194" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.bank.qa.tests.ContactsPageTest@319b92f3]" started-at="2023-02-13T23:34:28Z" name="afterMethod" finished-at="2023-02-13T23:34:29Z" duration-ms="1240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.bank.qa.tests.ContactsPageTest -->
       <class name="com.bank.qa.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.LoginPageTest@481a15ff]" started-at="2023-02-12T13:41:00Z" name="setUp" finished-at="2023-02-12T13:41:13Z" duration-ms="12104" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.LoginPageTest@27d415d9]" started-at="2023-02-13T23:32:50Z" name="setUp" finished-at="2023-02-13T23:32:57Z" duration-ms="7084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPageTitleTest()[pri:1, instance:com.bank.qa.tests.LoginPageTest@481a15ff]" started-at="2023-02-12T13:41:13Z" name="LoginPageTitleTest" finished-at="2023-02-12T13:41:13Z" duration-ms="5" status="PASS">
+        <test-method signature="LoginPageTitleTest()[pri:1, instance:com.bank.qa.tests.LoginPageTest@27d415d9]" started-at="2023-02-13T23:32:57Z" name="LoginPageTitleTest" finished-at="2023-02-13T23:32:57Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.qa.tests.LoginPageTest@481a15ff]" started-at="2023-02-12T13:41:13Z" name="teardown" finished-at="2023-02-12T13:41:14Z" duration-ms="1869" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.qa.tests.LoginPageTest@27d415d9]" started-at="2023-02-13T23:32:57Z" name="teardown" finished-at="2023-02-13T23:32:58Z" duration-ms="1047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.LoginPageTest@481a15ff]" started-at="2023-02-12T13:41:14Z" name="setUp" finished-at="2023-02-12T13:41:24Z" duration-ms="9942" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.qa.tests.LoginPageTest@27d415d9]" started-at="2023-02-13T23:33:19Z" name="setUp" finished-at="2023-02-13T23:33:26Z" duration-ms="7188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:2, instance:com.bank.qa.tests.LoginPageTest@481a15ff]" started-at="2023-02-12T13:41:24Z" name="LoginTest" finished-at="2023-02-12T13:41:25Z" duration-ms="693" status="PASS">
+        <test-method signature="LoginTest()[pri:2, instance:com.bank.qa.tests.LoginPageTest@27d415d9]" started-at="2023-02-13T23:33:26Z" name="LoginTest" finished-at="2023-02-13T23:33:27Z" duration-ms="510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.qa.tests.LoginPageTest@481a15ff]" started-at="2023-02-12T13:41:25Z" name="teardown" finished-at="2023-02-12T13:41:27Z" duration-ms="1756" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.bank.qa.tests.LoginPageTest@27d415d9]" started-at="2023-02-13T23:33:27Z" name="teardown" finished-at="2023-02-13T23:33:28Z" duration-ms="1128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

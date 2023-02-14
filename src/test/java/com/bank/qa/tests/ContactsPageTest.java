@@ -31,12 +31,12 @@ public class ContactsPageTest extends TestBase{
 		 cp = hp.clickOnContact();
 	}
 	
-  //@Test(priority = 1)
+  @Test(priority = 1)
   public void verifyContactPageLabelTest() {
 		Assert.assertTrue(cp.verifyContactLabel(), "Contact pas is not matched");
   }
   
-  //@Test(priority = 2)
+  @Test(priority = 2)
   public void verifyCreateNewContactLabelTest() {
 	  	cp.clickOnCreateNewContactBtn();
 		Assert.assertTrue(cp.verifyCreateNewContactLabel(), "Contact pas is not matched");

@@ -48,7 +48,7 @@ public class HomePage extends TestBase {
 	
 	public void clickOnNewContactPlusBtn() {
 		util.mouseHover(contactsLink);
-		newContactPlusBtn.click();
+		//newContactPlusBtn.click();
 	}
 	
 	public ContactsPage clickOnContact() {

@@ -3,13 +3,13 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="com.bank.qa.tests.HomePageTest">
+      <class name="com.bank.qa.tests.ContactsPageTest">
         <methods>
-          <include name="clickOnNewContactPlusBtnTest"/>
+          <include name="createNewContactTest" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.bank.qa.tests.HomePageTest -->
+      </class> <!-- com.bank.qa.tests.ContactsPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

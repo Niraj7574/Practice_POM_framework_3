@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.bank.qa.tests.ContactsPageTest">
+      <class name="com.bank.qa.tests.HomePageTest">
         <methods>
-          <include name="createNewContactTest" invocation-numbers="1 2"/>
+          <include name="clickOnNewContactPlusBtnTest"/>
           <include name="setUp"/>
-          <include name="afterMethod"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.bank.qa.tests.ContactsPageTest -->
+      </class> <!-- com.bank.qa.tests.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

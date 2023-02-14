@@ -31,25 +31,27 @@ public class HomePageTest extends TestBase {
 	 cp = new ContactsPage();
   }	
 	
- //@Test(priority = 1)
+ @Test(priority = 1)
   public void verifyHomePageTitleTest() {
 	  String homePageTitle = hp.verifyHomePageTitle();
 	  Assert.assertEquals(homePageTitle, "Cogmento CRM", "Home page Title not matched");
 	  
   }
 
- //@Test(priority = 2)
+ @Test(priority = 2)
   public void verifyUserNameTest() {
 	Assert.assertTrue(hp.verifyUserName(), "User name not matched");
  }
   
-  //@Test(priority = 3)
+  @Test(priority = 3)
   public void verifyContactsLinkTest(){
 	cp = hp.clickOnContact();
  }
   
   @Test(priority = 4)
   public void clickOnNewContactPlusBtnTest(){
+	  hp.mouseHoveronContactsLink();
+	  hp.clickOnContact();
 	  cp.clickOnCreateNewContactBtn();
  }
   

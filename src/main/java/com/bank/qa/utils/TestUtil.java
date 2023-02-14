@@ -23,7 +23,7 @@ public class TestUtil extends TestBase {
 	
 	public void mouseHover(WebElement element) {
 		Actions action = new Actions(driver);
-		action.moveToElement(element).build().perform();
+		action.moveToElement(element).perform();
 	}
 	
 	public static String TESTDATA_SHEET_PATH = "C:\\Users\\USER\\Desktop\\freeCrmTestData.xlsx";

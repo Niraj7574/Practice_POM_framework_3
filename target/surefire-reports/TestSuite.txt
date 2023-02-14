@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 127.852 s <<< FAILURE! - in TestSuite
-clickOnNewContactPlusBtnTest(com.bank.qa.tests.HomePageTest)  Time elapsed: 10.426 s  <<< FAILURE!
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 140.919 s <<< FAILURE! - in TestSuite
+createNewContactTest(com.bank.qa.tests.ContactsPageTest)  Time elapsed: 15.014 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: Create
+Unable to locate element: //input[@name='first_name']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-OL7R0RQ3', ip: '10.0.0.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16608, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
-*** Element info: {Using=link text, value=Create}
-	at com.bank.qa.tests.HomePageTest.clickOnNewContactPlusBtnTest(HomePageTest.java:53)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19992, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a817d0c-9283-4526-a0d7-461b654e9bd6
+*** Element info: {Using=xpath, value=//input[@name='first_name']}
+	at com.bank.qa.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:56)
 

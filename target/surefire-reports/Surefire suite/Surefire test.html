@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 12 13:41:00 EST 2023</td>
+<td>Started on:</td><td>Mon Feb 13 23:32:30 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>127 seconds (127190 ms)</td>
+<tr><td>Total time:</td><td>140 seconds (140345 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.bank.qa.tests.HomePageTest.clickOnNewContactPlusBtnTest()'><b>clickOnNewContactPlusBtnTest</b><br>Test class: com.bank.qa.tests.HomePageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: Create
+<td title='com.bank.qa.tests.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.bank.qa.tests.ContactsPageTest<br>Parameters: Krishna, Vasudev</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;first_name&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;LAPTOP-OL7R0RQ3&apos;, ip: &apos;10.0.0.251&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16608, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
-*** Element info: {Using=link text, value=Create}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19992, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a817d0c-9283-4526-a0d7-461b654e9bd6
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -91,26 +91,26 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
 	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.bank.qa.pages.ContactsPage.clickOnCreateNewContactBtn(ContactsPage.java:45)
-	at com.bank.qa.tests.HomePageTest.clickOnNewContactPlusBtnTest(HomePageTest.java:53)
-... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1582330795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1582330795'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: Create
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.bank.qa.pages.ContactsPage.createNewContact(ContactsPage.java:53)
+	at com.bank.qa.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:56)
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace665641137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665641137'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;first_name&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;LAPTOP-OL7R0RQ3&apos;, ip: &apos;10.0.0.251&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16608, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
-*** Element info: {Using=link text, value=Create}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19992, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a817d0c-9283-4526-a0d7-461b654e9bd6
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,10 +123,10 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
@@ -134,9 +134,9 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.bank.qa.pages.ContactsPage.clickOnCreateNewContactBtn(ContactsPage.java:45)
-	at com.bank.qa.tests.HomePageTest.clickOnNewContactPlusBtnTest(HomePageTest.java:53)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.bank.qa.pages.ContactsPage.createNewContact(ContactsPage.java:53)
+	at com.bank.qa.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -168,8 +168,8 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
-<td>10</td>
-<td>com.bank.qa.tests.HomePageTest@646007f4</td></tr>
+<td>15</td>
+<td>com.bank.qa.tests.ContactsPageTest@319b92f3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -182,27 +182,52 @@ Session ID: 13629e08-2710-4a7f-a8d7-83c80c74296a
 <td title='com.bank.qa.tests.LoginPageTest.LoginPageTitleTest()'><b>LoginPageTitleTest</b><br>Test class: com.bank.qa.tests.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bank.qa.tests.LoginPageTest@481a15ff</td></tr>
+<td>com.bank.qa.tests.LoginPageTest@27d415d9</td></tr>
 <tr>
 <td title='com.bank.qa.tests.LoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: com.bank.qa.tests.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.bank.qa.tests.LoginPageTest@481a15ff</td></tr>
+<td>com.bank.qa.tests.LoginPageTest@27d415d9</td></tr>
 <tr>
-<td title='com.bank.qa.tests.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.bank.qa.tests.ContactsPageTest<br>Parameters: Krishna, Vasudev</td>
+<td title='com.bank.qa.tests.HomePageTest.clickOnNewContactPlusBtnTest()'><b>clickOnNewContactPlusBtnTest</b><br>Test class: com.bank.qa.tests.HomePageTest</td>
 <td></td>
-<td>10</td>
-<td>com.bank.qa.tests.ContactsPageTest@710726a3</td></tr>
+<td>1</td>
+<td>com.bank.qa.tests.HomePageTest@fcd6521</td></tr>
 <tr>
 <td title='com.bank.qa.tests.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.bank.qa.tests.ContactsPageTest<br>Parameters: RamChandra, Raghuvanshi</td>
 <td></td>
-<td>10</td>
-<td>com.bank.qa.tests.ContactsPageTest@710726a3</td></tr>
+<td>7</td>
+<td>com.bank.qa.tests.ContactsPageTest@319b92f3</td></tr>
 <tr>
 <td title='com.bank.qa.tests.ContactsPageTest.createNewContactTest()'><b>createNewContactTest</b><br>Test class: com.bank.qa.tests.ContactsPageTest<br>Parameters: Shiva, Mahadeva</td>
 <td></td>
-<td>12</td>
-<td>com.bank.qa.tests.ContactsPageTest@710726a3</td></tr>
+<td>7</td>
+<td>com.bank.qa.tests.ContactsPageTest@319b92f3</td></tr>
+<tr>
+<td title='com.bank.qa.tests.ContactsPageTest.verifyContactPageLabelTest()'><b>verifyContactPageLabelTest</b><br>Test class: com.bank.qa.tests.ContactsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bank.qa.tests.ContactsPageTest@319b92f3</td></tr>
+<tr>
+<td title='com.bank.qa.tests.HomePageTest.verifyContactsLinkTest()'><b>verifyContactsLinkTest</b><br>Test class: com.bank.qa.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bank.qa.tests.HomePageTest@fcd6521</td></tr>
+<tr>
+<td title='com.bank.qa.tests.ContactsPageTest.verifyCreateNewContactLabelTest()'><b>verifyCreateNewContactLabelTest</b><br>Test class: com.bank.qa.tests.ContactsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bank.qa.tests.ContactsPageTest@319b92f3</td></tr>
+<tr>
+<td title='com.bank.qa.tests.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.bank.qa.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bank.qa.tests.HomePageTest@fcd6521</td></tr>
+<tr>
+<td title='com.bank.qa.tests.HomePageTest.verifyUserNameTest()'><b>verifyUserNameTest</b><br>Test class: com.bank.qa.tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bank.qa.tests.HomePageTest@fcd6521</td></tr>
 </table><p>
 </body>
 </html>
