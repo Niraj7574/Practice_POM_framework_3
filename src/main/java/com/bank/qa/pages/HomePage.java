@@ -13,8 +13,6 @@ import com.bank.qa.utils.TestUtil;
 
 public class HomePage extends TestBase {
 	
-	TestUtil util = new TestUtil();
-	
 	@FindBy(xpath = "//span[@class='user-display']")
 	WebElement userNameLabel;
 	
@@ -43,11 +41,11 @@ public class HomePage extends TestBase {
 	}
 	
 	public void mouseHoveronContactsLink() {
-		util.mouseHover(contactsLink);
+		TestUtil.mouseHover(contactsLink);
 	}
 	
 	public void clickOnNewContactPlusBtn() {
-		util.mouseHover(contactsLink);
+		TestUtil.mouseHover(contactsLink);
 		//newContactPlusBtn.click();
 	}
 	
